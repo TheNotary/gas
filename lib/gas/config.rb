@@ -85,6 +85,11 @@ module Gas
       File.open @config_file, 'w' do |file|
         file.write self
       end
+      
+      
+      # run ssh-keygen command here, using self.email TODO ###########################
+      # store the file in ~/.gas/nickname_id_rsa
+      # puts the id_rsa file so you can easily copy and paste it into github
     end
 
     # Override to_s to output correct format
