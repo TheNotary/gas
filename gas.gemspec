@@ -4,7 +4,7 @@ $:.unshift lib unless $:.include? lib
 require "gas/version"
 
 Gem::Specification.new do |s|
-  s.name = "gas"
+  s.name = "gas2"
   s.version = Gas::VERSION
   s.authors = "Fredrik Wallgren"
   s.email = "fredrik.wallgren@gmail.com"
