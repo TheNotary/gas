@@ -1,3 +1,8 @@
+h1. Notice:  This gem has fallen behind walle/gas and is not compatible with it
+
+This fork of walle/gas (used for ssh key juggling) is slowly being migrated into an extension style plugin to the gas gem (for changing authors only, has nothing to do with pushing keys online or anything).  
+
+
 h1. gas - manage your git author accounts
 
 "!http://travis-ci.org/walle/gas.png!":http://travis-ci.org/walle/gas
@@ -8,9 +13,12 @@ Gas is a mighty utility that helps you keep track of your multiple git authors. 
 
 h2. Installation
 
-The best way to install gas is with RubyGems:
 
-bc. $ [sudo] gem install gas
+bc. $  git clone git@github.com:TheNotary/gas.git
+bc. $  git checkout last_stable_ssh_gas
+bc. $  bundle
+bc. $  bundle exec rake install
+
 
 You can install from source:
 
