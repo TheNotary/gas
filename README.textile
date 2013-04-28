@@ -15,9 +15,10 @@ h2. Installation
 
 
 bc. $  git clone git@github.com:TheNotary/gas.git
-bc. $  git checkout last_stable_ssh_gas
-bc. $  bundle
-bc. $  bundle exec rake install
+$  cd gas
+$  git checkout last_stable_ssh_gas
+$  bundle
+$  bundle exec rake install
 
 
 You can install from source:
