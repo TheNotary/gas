@@ -20,6 +20,10 @@ $  git checkout last_stable_ssh_gas
 $  bundle
 $  bundle exec rake install
 
+Alternatively you can try: 
+
+bc.  $ gem install gas2
+
 
 You can install from source:
 
